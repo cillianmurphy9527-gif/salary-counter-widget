@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="315 175 610 610" role="img" aria-labelledby="title desc">
+  <title id="title">下班工资计数器</title>
+  <desc id="desc">深蓝色圆角应用图标，香槟金时钟、人民币符号和向上增长的箭头与柱形图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.8" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35425e"/><stop offset=".28" stop-color="#192740"/><stop offset=".58" stop-color="#101a2e"/><stop offset="1" stop-color="#0a1020"/>
+    </linearGradient>
+    <radialGradient id="topLight" cx=".12" cy=".015" r=".83" gradientTransform="translate(0 .002) scale(1 .87)">
+      <stop stop-color="#e0b99c" stop-opacity=".69"/><stop offset=".15" stop-color="#9e8b96" stop-opacity=".35"/><stop offset=".45" stop-color="#7183b4" stop-opacity=".12"/><stop offset="1" stop-color="#7183b4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lowerLight" cx=".85" cy="1" r=".48">
+      <stop stop-color="#f7bb78" stop-opacity=".33"/><stop offset=".32" stop-color="#b68b65" stop-opacity=".12"/><stop offset="1" stop-color="#f7bb78" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="340" y1="190" x2="875" y2="775" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8dc"/><stop offset=".16" stop-color="#f6d6a1"/><stop offset=".35" stop-color="#8c92a7"/><stop offset=".58" stop-color="#a26835"/><stop offset=".78" stop-color="#d0a56c"/><stop offset=".93" stop-color="#fff6d6"/><stop offset="1" stop-color="#e8a858"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="465" y1="285" x2="515" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8db"/><stop offset=".22" stop-color="#fff3d4"/><stop offset=".43" stop-color="#e9b08d"/><stop offset=".65" stop-color="#995c3c"/><stop offset=".82" stop-color="#4c3534" stop-opacity=".62"/><stop offset="1" stop-color="#1b2436" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="arcRight" x1="615" y1="260" x2="830" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7df"/><stop offset=".30" stop-color="#ffcfab"/><stop offset=".57" stop-color="#b97759"/><stop offset=".82" stop-color="#594039" stop-opacity=".65"/><stop offset="1" stop-color="#182234" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2=".25" y2="1">
+      <stop stop-color="#fff8dd"/><stop offset=".29" stop-color="#ffdf96"/><stop offset=".64" stop-color="#e9ae58"/><stop offset="1" stop-color="#9c602f"/>
+    </linearGradient>
+    <linearGradient id="hands" x1="0" y1="0" x2=".25" y2="1">
+      <stop stop-color="#fffbe7"/><stop offset=".40" stop-color="#fff1c7"/><stop offset=".80" stop-color="#f5c474"/><stop offset="1" stop-color="#d28a3e"/>
+    </linearGradient>
+    <radialGradient id="hub" cx=".33" cy=".12" r=".95">
+      <stop stop-color="#fff9dc"/><stop offset=".40" stop-color="#ffdf8b"/><stop offset="1" stop-color="#bb7732"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="400" y1="680" x2="852" y2="449" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2a2c37" stop-opacity=".55"/><stop offset=".13" stop-color="#aa744a"/><stop offset=".34" stop-color="#f8c46c"/><stop offset=".72" stop-color="#ffdc8a"/><stop offset="1" stop-color="#fff1b9"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="0" x2=".34" y2="1">
+      <stop stop-color="#fff2b8"/><stop offset=".35" stop-color="#f9c570"/><stop offset="1" stop-color="#87532e"/>
+    </linearGradient>
+    <linearGradient id="barEdge" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#fff3cd"/><stop offset="1" stop-color="#b77943" stop-opacity=".65"/></linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dx="1" dy="5"/><feComponentTransfer><feFuncA type="linear" slope=".48"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="330" y="193" width="580" height="572" rx="153"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect x="330" y="193" width="580" height="572" rx="153" fill="url(#bg)"/>
+    <rect x="330" y="193" width="580" height="572" fill="url(#topLight)"/>
+    <rect x="330" y="193" width="580" height="572" fill="url(#lowerLight)"/>
+    <rect x="334" y="197" width="572" height="564" rx="149" fill="none" stroke="#99acd8" stroke-opacity=".16" stroke-width="4"/>
+  </g>
+  <rect x="330" y="193" width="580" height="572" rx="153" fill="none" stroke="url(#edge)" stroke-width="2.6"/>
+  <!-- Clock rim: two gradient sections preserve the fading bronze ends. -->
+  <path d="M 527 644 C 451 604 413 539 413 472 C 413 363 500 274 625 274" fill="none" stroke="url(#arc)" stroke-width="27"/>
+  <path d="M 621 274 C 735 273 810 351 823 449" fill="none" stroke="url(#arcRight)" stroke-width="27"/>
+  <g filter="url(#shadow)">
+    <rect x="619" y="306" width="13" height="40" rx="6.5" fill="url(#hands)"/>
+    <rect x="444" y="464" width="42" height="14" rx="7" fill="url(#hands)"/>
+    <path d="M 551 408 L 625 472 L 734 371" fill="none" stroke="url(#hands)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="626" cy="471" r="22" fill="url(#hub)" stroke="#ffe4a3" stroke-width="1.2"/>
+    <!-- Currency symbol is outlined as vector geometry, not a font. -->
+    <path d="M544 507 H563 L590 549 L617 507 H636 Q639 507 636 512 L611 550 H634 Q638 550 638 554 V562 Q638 566 634 566 H600 V580 H634 Q638 580 638 584 V592 Q638 596 634 596 H600 V618 Q600 623 596 623 H585 Q581 623 581 618 V596 H547 Q543 596 543 592 V584 Q543 580 547 580 H581 V566 H547 Q543 566 543 562 V554 Q543 550 547 550 H570 L544 512 Q541 507 544 507Z" fill="url(#gold)" stroke="#fff2cf" stroke-width=".65"/>
+    <!-- Ascending bars follow the reference's sloped upper edges. -->
+    <path d="M627 651 Q627 647 632 646 L675 639 Q681 638 681 644 V682 Q681 688 676 688 H632 Q627 688 627 682Z" fill="url(#bars)" stroke="url(#barEdge)" stroke-width="1.1"/>
+    <path d="M697 616 Q697 612 702 611 L744 603 Q751 601 751 608 V682 Q751 688 746 688 H702 Q697 688 697 682Z" fill="url(#bars)" stroke="url(#barEdge)" stroke-width="1.1"/>
+    <path d="M767 569 Q767 565 773 562 L813 548 Q821 545 821 552 V682 Q821 688 816 688 H772 Q767 688 767 682Z" fill="url(#bars)" stroke="url(#barEdge)" stroke-width="1.1"/>
+    <!-- Rising ribbon arrow. -->
+    <path d="M409 639 C392 667 504 672 639 604 C711 568 766 525 796 486 L775 474 L852 449 L835 525 L819 506 C754 575 670 620 580 654 C509 681 443 696 405 686 C387 681 389 658 409 639 Z" fill="url(#sweep)"/>
+    <path d="M409 639 C392 667 504 672 639 604 C711 568 766 525 796 486 L775 474 L852 449" fill="none" stroke="#fff0b7" stroke-opacity=".78" stroke-width="1.05" stroke-linejoin="round"/>
+  </g>
+</svg>

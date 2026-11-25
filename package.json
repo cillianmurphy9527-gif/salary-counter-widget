@@ -1,0 +1,19 @@
+{
+  "name": "salary-counter-desktop",
+  "version": "3.1.5",
+  "private": true,
+  "description": "下班工资计数器 3.1.5 — original-design fixed desktop widget for Windows and macOS",
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.mjs",
+    "test:html": "node scripts/test-html.js",
+    "test:ui": "python scripts/test-ui.py",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "test:syntax": "node --check scripts/patch-widget-ui.mjs && node --check scripts/prepare-web.mjs && node --check scripts/test-html.js && node --check scripts/patch-widget-313.mjs && node --check scripts/polish-settings.mjs && node --check scripts/patch-multi-styles.mjs",
+    "build:assets": "node scripts/build-icons.cjs && node scripts/assemble-html.mjs && node scripts/patch-widget-ui.mjs && node scripts/patch-widget-313.mjs && node scripts/polish-settings.mjs && node scripts/patch-multi-styles.mjs && npm run prepare:web"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@resvg/resvg-js": "2.6.2"
+  }
+}

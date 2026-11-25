@@ -1,0 +1,9 @@
+/node_modules/
+/target/
+/src-tauri/target/
+/web/
+/src-tauri/gen/
+/release/
+*.log
+.DS_Store
+Thumbs.db
